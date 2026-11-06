@@ -47,12 +47,15 @@ distribution — and enforces supply-chain business rules.
 | Licence | Educational use permitted (see Kaggle page) |
 | Key fields | `region`, `crop`, `yield_quantity_kg`, `transport_delay_hours`, `spoilage_loss_%`, `quality_grade`, supply-chain stage |
 | Personal data | None — no personally identifiable information |
+
 The raw CSV is stored in `data/raw/agri_supplychain_resilience.csv`.
+
 The dataset supplies the core operational facts (batches, crops, regions,
 quantities, transport delays, spoilage, quality grades). Supporting
 reference data that the dataset does not include — storage capacity limits
 and driver workload limits — is defined in small reference tables designed
 as part of this project, so that the automation and interface layers
+can operate on the real data.
 
 ---
 ## 4. Innovation — User Interface
