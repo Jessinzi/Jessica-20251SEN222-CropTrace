@@ -10,6 +10,7 @@
 ---
 
 ## 1. Problem Statement
+
 Agricultural products often face challenges such as poor tracking, stock
 mismanagement, delays, and losses as they move from farms to processing
 industries, warehouses, and sellers. There is no centralized record of crop
@@ -19,6 +20,7 @@ product quality. This project proposes a centralized Oracle database system
 to monitor crop transportation, processing, storage, and distribution,
 providing accurate records of product quantities and movements throughout
 the supply chain.
+
 ---
 ## 2. Objectives
 **Main objective:**  
