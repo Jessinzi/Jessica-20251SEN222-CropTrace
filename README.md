@@ -1,7 +1,7 @@
 # Jessica-20251SEN222-CropTrace
 # End-to-End Agricultural Product Tracking System
 
-**Student:** Jessica Ishimwe 
+**Student:** Jessica Ishimwe <br> 
 **Student ID:** 20251SEN222 
 **Course:** INSY 8311 — Database Development with PL/SQL  
 **Instructor:** Eric Maniraguha  
