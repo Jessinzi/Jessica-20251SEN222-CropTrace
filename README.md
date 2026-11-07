@@ -117,21 +117,24 @@ procedures and displays results.
 ```
 ---
 ## 8. References (APA)
+
 1. Kamble, S. S., Gunasekaran, A., & Gawankar, S. A. (2020). Achieving
    sustainable performance in a data-driven agriculture supply chain: A
    review for research and applications. *International Journal of
    Production Economics, 219*, 179–194.
-   https://doi.org/10.1016/j.ijpe.2019.05.022
+
 2. Astill, J., Dara, R. A., Campbell, M., Farber, J. M., & Fraser, E. D. G.
    (2019). Transparency in food supply chains: A review of enabling
    technology solutions. *Trends in Food Science & Technology, 91*, 240–247.
-   https://doi.org/10.1016/j.tifs.2019.07.024
+
 3. FAO. (2019). *The State of Food and Agriculture 2019: Moving forward on
    food loss and waste reduction*. Food and Agriculture Organization of the
-   United Nations. https://www.fao.org/3/ca6030en/ca6030en.pdf
-4. IBM. (n.d.). *IBM Food Trust*. https://www.ibm.com/products/food-trust
+   United Nations.
+
+4. IBM. (n.d.). *IBM Food Trust*.
+
 5. Ziya07. (2024). *AgriSupplyChainResilience* [Data set]. Kaggle.
    https://www.kaggle.com/datasets/ziya07/agrisupplychainresilience
+
 6. Oracle. (2024). *Oracle Database PL/SQL Language Reference* (23c).
    Oracle Corporation.
-   https://docs.oracle.com/en/database/oracle/oracle-database/23/lnpls/
