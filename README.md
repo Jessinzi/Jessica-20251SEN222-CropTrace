@@ -2,10 +2,10 @@
 # End-to-End Agricultural Product Tracking System
 
 **Student:** Jessica Ishimwe <br> 
-**Student ID:** 20251SEN222 
-**Course:** INSY 8311 — Database Development with PL/SQL  
-**Instructor:** Eric Maniraguha  
-**FINAL EXAMINATION:** Phase 0
+**Student ID:** 20251SEN222 <br>
+**Course:** INSY 8311 — Database Development with PL/SQL <br> 
+**Instructor:** Eric Maniraguha <br>  
+**FINAL EXAMINATION:** 
 
 ---
 
@@ -58,10 +58,10 @@ as part of this project, so that the automation and interface layers
 can operate on the real data.
 
 ---
-## 4. Innovation — User Interface
+## 4. Innovation 
 **Option chosen:** User interface  
 **Tool:** Oracle APEX (bundled with Oracle Database), with Python Streamlit
-as a fallback.
+as a fallback. <br>
 **What it does:** A simple web application connected live to the Oracle
 database. Business rules stay inside PL/SQL — the interface only calls
 procedures and displays results.
