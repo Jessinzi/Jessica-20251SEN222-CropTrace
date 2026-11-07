@@ -54,7 +54,7 @@ The dataset supplies the core operational facts (batches, crops, regions,
 quantities, transport delays, spoilage, quality grades). Supporting
 reference data that the dataset does not include — storage capacity limits
 and driver workload limits — is defined in small reference tables designed
-as part of this project, so that the automation and interface layers
+as part of this project, so that the interface layers
 can operate on the real data.
 
 ---
@@ -107,7 +107,7 @@ procedures and displays results.
 
 ## 7. Repository Structure
 ```
-[repo-name]/
+Jessica-20251SEN222-CropTrace/
 ├── README.md
 ├── data/raw/            # raw Kaggle CSV
 ├── docs/research/       # research_log.md and sources
