@@ -149,5 +149,5 @@ Jessica-20251SEN222-CropTrace/
 **Published Diagram Link:** https://drive.google.com/file/d/1bZxp0m7sDYi_j6pD5T_2nmaxSBCw_N9H/view?usp=drive_link
 
 **Supporting Documents:**
-* [View the Business Process Diagram (PDF)](docs/business_process/business_process_diagram.drawio)
-* [View the Process Explanation (PDF)](docs/business_process/business_process_explanation)
+* [View the Business Process Diagram (PDF)](docs/business_process/business_process_diagram.drawio.pdf)
+* [View the Process Explanation (PDF)](docs/business_process/business_process_explanation.pdf)
