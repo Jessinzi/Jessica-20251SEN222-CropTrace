@@ -5,7 +5,7 @@
 **Student ID:** 20251SEN222 <br>
 **Course:** INSY 8311 — Database Development with PL/SQL <br> 
 **Instructor:** Eric Maniraguha <br>  
-**FINAL EXAMINATION:** 
+**FINAL EXAMINATION** 
 
 ---
 
