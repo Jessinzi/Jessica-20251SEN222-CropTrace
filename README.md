@@ -140,3 +140,14 @@ Jessica-20251SEN222-CropTrace/
 
 6. Oracle. (2024). *Oracle Database PL/SQL Language Reference* (23c).
    Oracle Corporation.
+
+## Phase I – Business Process Modeling
+
+**Selected Process:** Agricultural Batch Intake and Quality Assessment
+**Modeling Tool:** draw.io (diagrams.net)
+
+**Published Diagram Link:** https://drive.google.com/file/d/1bZxp0m7sDYi_j6pD5T_2nmaxSBCw_N9H/view?usp=drive_link
+
+**Supporting Documents:**
+* [View the Business Process Diagram (PDF)](docs/business_process/business_process_diagram.pdf)
+* [View the Process Explanation (PDF)](docs/business_process/business_process_explanation.pdf)
