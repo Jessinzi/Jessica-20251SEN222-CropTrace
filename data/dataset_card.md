@@ -1,6 +1,6 @@
 # Dataset Card: AgriSupplyChainResilience
 
-## 1. Overview
+## 1. Stored Raw Data
 *   **Source Link:** https://www.kaggle.com/datasets/ziya07/agrisupplychainresilience
 *   **Licence:** Educational use permitted (Kaggle public dataset).
 *   **Format:** CSV (Comma Separated Values).
@@ -8,7 +8,7 @@
 *   **Date Collected:** 20th November 2026
 *   **What one record represents:** One record represents a single agricultural production batch moving through the supply chain, capturing its yield, environmental conditions, transport delays, and quality metrics.
 
-## 2. Data Quality Report (Counts)
+## 2. Data Quality Report 
 
 *   **Missing Values:** 0 missing values found in any columns (yield, moisture, spoilage, transport delay). The dataset is highly complete.
 *   **Duplicates:** 2 duplicate `batch_id` records found using an Excel formula (`COUNTA - SUMPRODUCT`).
