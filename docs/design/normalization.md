@@ -5,7 +5,7 @@ The raw CSV contains all data in one flat file. To turn this into a relational d
 
 1. **`BATCH` (Core Entity):** Represents the main transaction. Contains `batch_id` (Primary Key), `crop_type`, `region`, `season`, `yield_quantity_kg`, `supply_chain_stage`.
 2. **`REGION_CLIMATE` (Reference Entity):** The climate data depends on the region. Contains `region` (Primary Key), `temp_avg`, `climate_risk`.
-3. **`CROP_ECONOMICS` (Reference Entity):** The input cost depends on the crop type and season. Contains `crop_type` and `season` (Composite Primary Key), `input_cost`.
+3. **`CROP_SEASON_COST` (Reference Entity):** The input cost depends on the crop type and season. Contains `crop_type` and `season` (Composite Primary Key), `input_cost`.
 4. **`QUALITY_CHECK` (Child Entity):** Separates quality metrics from the main batch. Contains `quality_id` (Primary Key), `batch_id` (Foreign Key), `moisture_avg`, `quality_grade`, `spoilage_loss`.
 5. **`LOGISTICS` (Child Entity):** Separates transport data. Contains `logistics_id` (Primary Key), `batch_id` (Foreign Key), `equipment`, `transport_delay_hrs`, `logistics_efficiency`.
 6. **`STORAGE` (Child Entity):** Separates storage time. Contains `storage_id` (Primary Key), `batch_id` (Foreign Key), `storage_duration_days`.
@@ -13,7 +13,7 @@ The raw CSV contains all data in one flat file. To turn this into a relational d
 
 **Relationships (Cardinality):**
 *   One `REGION_CLIMATE` has Many `BATCHES` (1:N)
-*   One `CROP_ECONOMICS` has Many `BATCHES` (1:N)
+*   One `CROP_SEASON_COST` has Many `BATCHES` (1:N)
 *   One `BATCH` has One `QUALITY_CHECK` (1:1)
 *   One `BATCH` has One `LOGISTICS` record (1:1)
 *   One `BATCH` has One `STORAGE` record (1:1)
