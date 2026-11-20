@@ -67,7 +67,7 @@ The raw data is a single flat CSV file containing all information about the batc
 **6. `PERFORMANCE` Table**
 *   **Dependency Removed:** Removed transitive dependency: Final performance metrics like `resilience_score` and `final_market_price` are calculated results that depend on the combination of all prior stages, so they are separated.
 
-*(The 7th table is the core **`BATCH`** table which holds the primary key `batch_id` and foreign keys linking to these 6 tables).*
+**(The 7th table is the core **`BATCH`** table which holds the primary key `batch_id` and foreign keys linking to these 6 tables).**
 ---
 
 ## 5. Field Mapping (Raw CSV to 3NF)
