@@ -21,7 +21,7 @@ The raw CSV contains all data in one flat file. To turn this into a relational d
 
 ---
 
-## Task 4: Normalization Process (UNF → 3NF)
+## Task 4: Normalization Process
 
 ### 1. Unnormalized Form (UNF)
 The raw data is a single flat CSV file containing all information about the batch, environment, logistics, and quality. 
@@ -71,7 +71,7 @@ The raw data is a single flat CSV file containing all information about the batc
 Is the core **`BATCH`** table which holds the primary key `batch_id` and foreign keys linking to these 6 tables.
 
 
-## 5. Field Mapping (Raw CSV to 3NF)
+## 5. Field Mapping 
 
 **Note on Data Dropping:** No raw fields were dropped during this normalization process. Every single column from the raw CSV was relevant to the supply chain tracking and was successfully mapped to one of the 7 target tables below.
 
