@@ -69,7 +69,7 @@ The raw data is a single flat CSV file containing all information about the batc
 
 **The 7th table**
 Is the core **`BATCH`** table which holds the primary key `batch_id` and foreign keys linking to these 6 tables.
----
+
 
 ## 5. Field Mapping (Raw CSV to 3NF)
 
