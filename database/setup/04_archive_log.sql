@@ -1,9 +1,3 @@
-/*
-Name: Jessica Ishimwe
-Student ID: 20251SEN222
-Group: Tuesday Group B
-Project Name: CropTrace
-*/
 
 /* 
 Archive logging is a CDB-level setting, not a PDB-level setting. 
