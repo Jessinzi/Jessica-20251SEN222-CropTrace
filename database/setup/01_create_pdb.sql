@@ -1,3 +1,10 @@
+/*
+Name: Jessica Ishimwe
+Student ID: 20251SEN222
+Group: Group B
+Project Name: CropTrace
+*/
+
 -- 1. Create the pluggable database
 CREATE PLUGGABLE DATABASE tue_20251sen222_jessica_ct_db
   ADMIN USER pdbadmin IDENTIFIED BY pdbadmin
