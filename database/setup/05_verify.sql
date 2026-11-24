@@ -1,3 +1,10 @@
+/*
+Name: Jessica Ishimwe
+Student ID: 20251SEN222
+Group: Group B
+Project Name: CropTrace
+*/
+
 -- 1. Your PDB exists and is open
 SELECT name, open_mode FROM v$pdbs WHERE name = 'TUE_20251SEN222_JESSICA_CT_DB';
 
