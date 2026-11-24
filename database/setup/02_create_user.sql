@@ -1,3 +1,10 @@
+/*
+Name: Jessica Ishimwe
+Student ID: 20251SEN222
+Group: Group B
+Project Name: CropTrace
+*/ 
+
 -- 1. Switch to the new PDB
 ALTER SESSION SET CONTAINER = tue_20251sen222_jessica_ct_db;
 
