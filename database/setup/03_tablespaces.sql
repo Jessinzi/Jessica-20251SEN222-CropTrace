@@ -1,3 +1,10 @@
+/*
+Name: Jessica Ishimwe
+Student ID: 20251SEN222
+Group: Group B
+Project Name: CropTrace
+*/
+
 -- 1. Create Data Tablespace
 CREATE TABLESPACE croptrace_data 
   DATAFILE 'croptrace_data01.dbf' SIZE 100M 
