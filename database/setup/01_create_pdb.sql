@@ -1,17 +1,61 @@
 /*
 Name: Jessica Ishimwe
 Student ID: 20251SEN222
-Group: Group B
+Group: Group 1
 Project Name: CropTrace
 */
 
--- 1. Create the pluggable database
-CREATE PLUGGABLE DATABASE tue_20251sen222_jessica_ct_db
-  ADMIN USER pdbadmin IDENTIFIED BY pdbadmin
-  FILE_NAME_CONVERT = ('pdbseed', 'tue_20251sen222_jessica_ct_db');
+-- 1. Create Parent Tables
+CREATE TABLE region_climate (
+    region VARCHAR2(50) NOT NULL,
+    temp_avg NUMBER(5,2) NOT NULL,
+    climate_risk VARCHAR2(20) NOT NULL
+) TABLESPACE croptrace_data;
 
--- 2. Open the PDB
-ALTER PLUGGABLE DATABASE tue_20251sen222_jessica_ct_db OPEN;
+CREATE TABLE crop_season_cost (
+    crop_type VARCHAR2(50) NOT NULL,
+    season VARCHAR2(20) NOT NULL,
+    input_cost NUMBER(10,2) NOT NULL
+) TABLESPACE croptrace_data;
 
--- 3. Save state so it opens automatically after a restart
-ALTER PLUGGABLE DATABASE tue_20251sen222_jessica_ct_db SAVE STATE;
+-- 2. Create Main Batch Table
+CREATE TABLE batch (
+    batch_id VARCHAR2(50) NOT NULL,
+    crop_type VARCHAR2(50) NOT NULL,
+    season VARCHAR2(20) NOT NULL,
+    region VARCHAR2(50) NOT NULL,
+    yield_quantity_kg NUMBER(10,2) NOT NULL,
+    supply_chain_stage VARCHAR2(50) NOT NULL
+) TABLESPACE croptrace_data;
+
+-- 3. Create Child Tables
+CREATE TABLE quality_check (
+    check_id NUMBER GENERATED ALWAYS AS IDENTITY,
+    batch_id VARCHAR2(50) NOT NULL,
+    moisture_avg NUMBER(5,2) NOT NULL,
+    quality_grade VARCHAR2(10),
+    spoilage_loss_pct NUMBER(5,2) NOT NULL
+) TABLESPACE croptrace_data;
+
+CREATE TABLE logistics (
+    logistics_id NUMBER GENERATED ALWAYS AS IDENTITY,
+    batch_id VARCHAR2(50), -- Notice no NOT NULL here! Required for ON DELETE SET NULL
+    equipment VARCHAR2(50),
+    transport_delay_hrs NUMBER(5,2) NOT NULL,
+    logistics_efficiency NUMBER(5,2) NOT NULL
+) TABLESPACE croptrace_data;
+
+CREATE TABLE storage (
+    storage_id NUMBER GENERATED ALWAYS AS IDENTITY,
+    batch_id VARCHAR2(50) NOT NULL,
+    storage_duration_days NUMBER(5,0) NOT NULL
+) TABLESPACE croptrace_data;
+
+CREATE TABLE performance (
+    performance_id NUMBER GENERATED ALWAYS AS IDENTITY,
+    batch_id VARCHAR2(50) NOT NULL,
+    resilience_score NUMBER(5,2),
+    resource_efficiency NUMBER(5,2),
+    final_market_price NUMBER(10,2),
+    model_used VARCHAR2(50)
+) TABLESPACE croptrace_data;
